@@ -6,8 +6,6 @@ xz-utils tk-dev;
 
 curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
 
-pyenv update
-
 cat << 'EOF' >> ~/.bash_profile
 
 export PATH="~/.pyenv/bin:$PATH"
